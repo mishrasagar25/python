@@ -1,0 +1,17 @@
+str = "sagar mishra"
+
+s = "";
+s2 ="";
+print(ord(str[0]) , " , " , chr(ord(str[0])))
+
+for i in range(0 , len(str)):
+    x = (ord(str[i])+3)
+    s += chr(x)
+
+print(s)
+
+for i in range(0, len(str)):
+    x = (ord(s[i])-3)
+    s2 += chr(x)
+
+print(s2)
